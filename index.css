@@ -19,9 +19,11 @@
   font-size: 15px;
 }
 
-.list{
+.list li a{
   display: flex;
   flex-direction: column;
+  list-style: none;
+  color: green;
 }
 
 .input-save{
