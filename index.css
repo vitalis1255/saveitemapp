@@ -1,0 +1,96 @@
+.all-el{
+  width: 450px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+.input-el{
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.input-el::placeholder{
+  color: green;
+  font-size: 15px;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+}
+
+.input-save{
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background-color: green;
+  border-radius: 10px;
+  color: white;
+  transition: background-color 1s;
+}
+.save-reset{
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+.reset{
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background-color: green;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 1s;
+}
+
+.reset:hover{
+  background-color: lightgreen;
+  color: black;
+  cursor: pointer;
+}
+
+.saved-items{
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background-color: green;
+  border-radius: 10px;
+  color: white;
+  transition: background-color 1s;
+  cursor: pointer;
+}
+
+.saved-items:hover{
+  background-color: lightgreen;
+  color: black;
+  cursor: pointer;
+}
+
+.input-save:hover{
+  background-color: lightgreen;
+  color: black;
+  cursor: pointer;
+}
+
+.remove-items{
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background-color: green;
+  border-radius: 10px;
+  color: white;
+  transition: background-color 1s;
+  cursor: pointer;
+}
+
+.remove-items:hover{
+  background-color: lightgreen;
+  color: black;
+  cursor: pointer;
+}
