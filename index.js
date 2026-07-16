@@ -49,6 +49,7 @@ function savedItems(){
 }
 
 
+const button = document.querySelector('.js-saved-items');
 let html = "";//Reset the HTML
 function getItemsSaved(){
   let result =  JSON.parse(localStorage.getItem('saveInputValue')) || [];
@@ -65,8 +66,11 @@ function getItemsSaved(){
     });
     ulEl.innerHTML = html;
     
+    //button.removeEventListener('click',()=>{
+      //getItemsSaved();
+    //});
 }
-document.querySelector('.js-saved-items').addEventListener('click',()=>{
+button.addEventListener('click',()=>{
   getItemsSaved();
 });
 
